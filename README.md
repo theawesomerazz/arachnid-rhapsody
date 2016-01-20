@@ -6,3 +6,11 @@ not taken easy to remember
 ONE PAGE (ONE CSS, ONE HTML) go nuts with script no one cares
 palette - dark, dark grey (bg, possible gradient), violet, teal, marigold (accent)
 
+> add login for jennings to edit without our help
+> use embedded css (temp)
+> image slideshow
+> consult amaya ashmore 
+> embed calendar
+> vector of logo
+> combine html files and create external css
+> research one page websites, responsitivity, wally b
