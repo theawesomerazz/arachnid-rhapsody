@@ -9,7 +9,7 @@ palette - dark, dark grey (bg, possible gradient), violet, teal, marigold (accen
 * add login for jennings to edit without our help
 * use embedded css (temp)
 * image slideshow
-* consult amaya ashmore 
+* consult amaya ashmore about creating a login (webmaster)
 * embed calendar
 * vector of logo (done)
 * combine html files and create external css
