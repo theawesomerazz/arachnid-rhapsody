@@ -11,6 +11,6 @@ palette - dark, dark grey (bg, possible gradient), violet, teal, marigold (accen
 * image slideshow
 * consult amaya ashmore 
 * embed calendar
-* vector of logo
+* vector of logo (done)
 * combine html files and create external css
 * research one page websites, responsitivity, wally b
