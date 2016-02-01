@@ -8,9 +8,9 @@ palette - dark, dark grey (bg, possible gradient), violet, teal, marigold (accen
 
 * add login for jennings to edit without our help
 * use embedded css (temp)
-* image slideshow
+* image slideshow (In Prgress and glitchy)
 * consult amaya ashmore about creating a login (webmaster)
-* embed calendar
+* embed calendar (At the moment, we're just using google calender)
 * vector of logo (done)
 * combine html files and create external css
 * research one page websites, responsitivity, wally b
