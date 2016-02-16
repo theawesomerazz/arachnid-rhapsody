@@ -8,8 +8,8 @@ body{
 }
 
 #container{
-	width: 604px;
-	height:435px;
+	width: 600px;
+	height:450px;
 	position:relative;
 }
 
@@ -44,8 +44,8 @@ body{
 #container .nextButton:hover{background-position:right bottom;right:0;}
 
 #container ul{
-	width:604px;
-	height:435px;
+	width:600px;
+	height:450px;
 	list-style:none outside none;
 	position:relative;
 	overflow:hidden;
