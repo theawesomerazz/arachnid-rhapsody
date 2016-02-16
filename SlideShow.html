@@ -30,9 +30,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 <div id="container">
 	<ul>
-		<li><img src="../images/picture1.jpg" width="604px" height="435px" alt="image1"/></li>
-		<li><img src="../images/picture2.jpg" width="604px" height="435px" alt="image2"/></li>
-		<li><img src="../images/picture3.jpg" width="604px" height="435px" alt="image3"/></li>
+		<li><img src="../images/signiture_slideshow.png" width="600px" height="450px" alt="image1"/></li>
+		<li><img src="../images/HES_slideshow.png"" width="600px" height="450px" alt="image2"/></li>
+		<li><img src="../images/wnnf_slideshow.png" width="600px" height="450px" alt="image3"/></li>
 	</ul>
 	<span class="button prevButton"></span>
 	<span class="button nextButton"></span>
@@ -60,12 +60,13 @@ $(window).load(function(){
 					current=current-1;
 				nextPage = pages.eq(current);	
 
-				nextPage.css("marginLeft",-604);
+				nextPage.css("marginLeft",-600);
+				nextPage.css("marginRight",-600);
 				nextPage.show();
-				nextPage.animate({ marginLeft: 0 }, 800,function(){
+				nextPage.animate({ marginLeft: 0 },{marginRight: 600}, 800,function(){
 					currentPage.hide();
 				});
-				currentPage.animate({ marginLeft: 604 }, 800,function(){
+				currentPage.animate({ marginLeft: 600 }, 400,function(){
 					$('#container .button').bind('click',handler1);
 				});
 			}
@@ -78,11 +79,11 @@ $(window).load(function(){
 					current=current+1;
 				nextPage = pages.eq(current);	
 
-				nextPage.css("marginLeft",604);
+				nextPage.css("marginLeft",600);
 				nextPage.show();
-				nextPage.animate({ marginLeft: 0 }, 800,function(){
+				nextPage.animate({ marginLeft: 0 }, 400,function(){
 				});
-				currentPage.animate({ marginLeft: -604 }, 800,function(){
+				currentPage.animate({ marginLeft: -600 }, 400,function(){
 					currentPage.hide();
 					$('#container .button').bind('click',handler1);
 				});
@@ -99,11 +100,11 @@ $(window).load(function(){
 			else
 				current=current+1;
 			nextPage = pages.eq(current);	
-			nextPage.css("marginLeft",604);
+			nextPage.css("marginLeft",600);
 			nextPage.show();
-			nextPage.animate({ marginLeft: 0 }, 800,function(){
+			nextPage.animate({ marginLeft: 0 },{marginRight}, 800,function(){
 			});
-			currentPage.animate({ marginLeft: -604 }, 800,function(){
+			currentPage.animate({ marginLeft: -600 }, 800,function(){
 				currentPage.hide();
 				$('#container .button').bind('click',handler1);
 			});
